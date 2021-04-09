@@ -2,7 +2,6 @@ local embedding_dim = 768;
 
 {
     "dataset_reader": {
-        "lazy": false,
         "type": "mrc_for_ner",
         "context_tokenizer": "whitespace",
         "query_tokenizer": "spacy",
